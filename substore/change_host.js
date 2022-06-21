@@ -13,7 +13,7 @@ function operator(proxies) {
       p['skip-cert-verify'] = true
       p.servername = host
       p['tls-hostname'] =host
-      p.sni =host
+      /*p.sni =host*/
       // 这里选择整体替换 headers 还是 只替换 Host: lodash_set(p, 'ws-opts.headers', { Host: host }) 
       lodash_set(p, 'ws-opts.headers.Host', host)
       lodash_set(p, 'http-opts.headers.Host', [host])
