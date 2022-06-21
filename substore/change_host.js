@@ -1,7 +1,7 @@
 function operator(proxies) {
   
   /* 混淆 */
-  const host = 'p11.douyinpic.com'
+  const host = 'v26-qosa.toutiaovod.com'
   const prefix = ''
 	
 
