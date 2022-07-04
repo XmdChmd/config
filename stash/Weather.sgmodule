@@ -19,13 +19,13 @@ http:
       type: response
       require-body: true
       timeout: 20
-      argument:
+      argument:Switch=true&NextHour.Switch=true&AQI.Switch=true&AQI.Mode=WAQI Public&AQI.Location=Station&AQI.Auth=a05380851573c22dc8cafd789576f9c14179bfe7&AQI.Scale=EPA_NowCast.2204&Map.AQI=true
     - match: ^https?:\/\/weather-map\.apple\.com\/(v1|v2)\/mapOverlay\/.*(\?.*country=CN.*)
       name: Apple_Weather_Map
       type: request
       require-body: false
       timeout: 10
-      argument:
+      argument:Switch=true&NextHour.Switch=true&AQI.Switch=true&AQI.Mode=WAQI Public&AQI.Location=Station&AQI.Auth=a05380851573c22dc8cafd789576f9c14179bfe7&AQI.Scale=EPA_NowCast.2204&Map.AQI=true
 
 script-providers:
   Apple_Weather_Availability:
