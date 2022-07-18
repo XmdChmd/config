@@ -5,6 +5,8 @@ function operator(proxies) {
   const prefix = ''
 
   const h_method = 'GET'
+
+  const nw = 'http'
 	
 
   return proxies.map(p => {
@@ -20,6 +22,8 @@ function operator(proxies) {
       lodash_set(p, 'ws-opts.headers.Host', host)
       lodash_set(p, 'http-opts.headers.Host', [host])
       lodash_set(p, 'http-opts.headers.method', [h_method])
+
+      lodash_set(p, 'http-opts.headers.method', [nw])
 
     }
 
