@@ -367,6 +367,8 @@ function setHost(p, host) {
     } else{
       $.lodash_set(p, 'network', 'http')
       $.lodash_set(p, 'http-opts.headers.Host', [host])
+
+      if(h_method)
       $.lodash_set(p, 'http-opts.headers.method', [h_method])
     }
     if (p.network && !p._hostSet) {
