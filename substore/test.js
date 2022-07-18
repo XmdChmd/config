@@ -23,7 +23,7 @@ function operator(proxies) {
       lodash_set(p, 'http-opts.headers.Host', [host])
       lodash_set(p, 'http-opts.headers.method', [h_method])
 
-      lodash_set(p, 'http-opts.headers.method', [nw])
+      lodash_set(p, 'network', [nw])
 
     }
 
