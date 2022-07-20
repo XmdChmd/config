@@ -10,4 +10,4 @@ script-providers:
     interval: 86400
 
 rules:
-  - DOMAIN-KEYWORD,forge.speedtest.cn,✨❤️limited
+  - DOMAIN-KEYWORD,forge.speedtest.cn,❤️limited
