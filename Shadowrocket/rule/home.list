@@ -1,10 +1,12 @@
-  - DOMAIN-SUFFIX,fast.com  
-  - DOMAIN-SUFFIX,db.laomoe.com
-  - DOMAIN-SUFFIX,ooklaserver.net
-  - DOMAIN-SUFFIX,speed.cloudflare.com
-  - DOMAIN-SUFFIX,speed.dler.io
-  - DOMAIN-KEYWORD,speedtest  
-  - DOMAIN-SUFFIX,huya.com
-  - DOMAIN-SUFFIX,huyagame.cn
-  - DOMAIN-SUFFIX,peiwanlu.com
-  - DOMAIN-SUFFIX,snapplay.com
+# NAME: myHome
+# AUTHOR: chmdxmd
+DOMAIN-SUFFIX,fast.com  
+DOMAIN-SUFFIX,db.laomoe.com
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-KEYWORD,speedtest  
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,huyagame.cn
+DOMAIN-SUFFIX,peiwanlu.com
+DOMAIN-SUFFIX,snapplay.com
