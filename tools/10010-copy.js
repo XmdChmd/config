@@ -677,7 +677,7 @@ function formatFlowSmall(number, precision) {
     return (round(number, precision) + 'M')
   }
   if (number < 1024 * 1024) {
-    return round(number%1024, precision) + 'M ' + Math.floor(number/1024) + 'G'
+    return round(number%1024, precision) + 'M_' + Math.floor(number/1024) + 'G'
     //return round(number, precision) + 'M' + '-' + round(number/1024, precision) + 'G '
   }
   return round(number / 1024 / 1024, precision) + 'T'
