@@ -8,9 +8,8 @@ http:
       name: BaiduCloud
       type: response
       require-body: true
-      timeout: 10
-      argument:
+      timeout: 30
 script-providers:
   BaiduCloud:
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+    url: https://raw.githubusercontent.com/XmdChmd/config/main/stash/Script/baidu.js
     interval: 86400
