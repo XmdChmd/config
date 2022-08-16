@@ -531,9 +531,9 @@ async function notify(title, subtitle, body) {
     if (bark) {
       try {
 
-        const url = bark.replace('[推送标题]', encodeURIComponent(title)).replace('[推送内容]', encodeURIComponent(`${subtitle}\n${body}`))
+        const url = bark.replace('[推送标题]', encodeURIComponent(title)).replace('[推送内容]', encodeURIComponent(`${subtitle}${body}`))
         $.log(`开始 bark 请求: ${url}`)
-        $.log(`${title}${subtitle}\n\n${body}`)
+        $.log(`${title}\n\n${subtitle}\n\n${body}`)
         const res = await $.http.get({ url })
         // console.log(res)
         const status = $.lodash_get(res, 'status')
