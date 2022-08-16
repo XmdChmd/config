@@ -1,0 +1,16 @@
+name: CopyFromOthers
+desc: baiduCloudVipTools
+http:
+  mitm:
+    - "pan.baidu.com"
+  script:
+    - match: https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
+      name: BaiduCloud
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+script-providers:
+  BaiduCloud:
+    url: https://raw.githubusercontent.com/XmdChmd/config/main/stash/Script/baidu.js
+    interval: 86400
