@@ -528,7 +528,7 @@ async function notify(title, subtitle, body) {
     }
   }
   bark = '1'
-  if (detail.durationNotFree < 8 ){
+  if (detail.durationNotFree > 5 ){
     bark = 'https://api.day.app/x964wvMNyNZAV2yYrNhjWZ/[推送标题]/[推送内容]?group=10010&autoCopy=1&isArchive=1&icon=https://raw.githubusercontent.com/XmdChmd/IconSet/main/Color/Quanx/face/CN.png&sound=glass&level=active'
   }else {
     bark = $.getdata(KEY_BARK)
